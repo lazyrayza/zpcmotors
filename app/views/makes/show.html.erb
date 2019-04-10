@@ -1,0 +1,7 @@
+<%= @make.name %>
+
+<% @models.each do |model|%>
+<li><%= link_to make_model_path(model) do %>
+    <%= model.name %></li>
+    <% end %>
+  <% end %>
