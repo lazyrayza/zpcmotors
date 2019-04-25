@@ -5,6 +5,8 @@ class ModelsController < ApplicationController
 
   def show
     @model = Model.find(params[:id])
+    # @cars = @models.cars.where(model_id: @model)
+
   end
 
   def new

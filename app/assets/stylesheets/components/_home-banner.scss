@@ -20,5 +20,11 @@
 }
 
 .home-banner {
-  height: 100vh
+  height: 100vh;
+  i {
+       // padding-top: 400px;
+       cursor: pointer;
+       color: white;
+    }
 }
+

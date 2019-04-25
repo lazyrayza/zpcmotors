@@ -1,9 +1,11 @@
 <div class="main">
   <% @makes.each do |make| %>
-  <li><%= link_to make_path(make) do %>
-    <%= make.name %></li>
+  <div class="make-card">
+    <li><%= link_to make_path(make) do %>
+      <%= make.name %></li>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
 </div>
 
 

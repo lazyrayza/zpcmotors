@@ -18,28 +18,34 @@
     width: 40%;
     height: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
+    // text-align: center;
     margin: 24px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-left: 35px;
     .right-top{
       height: 30%;
-      width: 80%;
+      width: 95%;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       border-radius: 4px;
+      padding: 10px;
     }
     .right-mid{
       height: 30%;
-      width: 80%;
+      width: 95%;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       border-radius: 4px;
+      padding: 10px;
+
     }
     .right-bottom{
       height: 30%;
-      width: 80%;
+      width: 95%;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       border-radius: 4px;
+      padding: 10px;
+
     }
   }
 }

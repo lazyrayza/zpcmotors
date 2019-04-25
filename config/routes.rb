@@ -4,9 +4,10 @@ Rails.application.routes.draw do
 
   get "/contact", to: "pages#contact"
   get "/about", to: "pages#about"
+  get "/trade-in", to: "pages#trade-in"
 
   resources :makes, only: [:show, :index] do
-    resources :models, only: [:show, :index] do
+    resources :models, only: [:show] do
       resources :cars, only: [:show]
     end
   end

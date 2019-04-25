@@ -15,6 +15,7 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'python'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
@@ -28,3 +29,8 @@ group :development, :test do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
 end
+
+gem "google-cloud-storage", "~> 1.18"
+gem 'google-cloud-bigquery', '~> 1.11'
+gem 'cloudinary', '~> 1.9.1'
+gem 'carrierwave', '~> 1.2'
